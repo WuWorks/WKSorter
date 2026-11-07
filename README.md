@@ -1,0 +1,44 @@
+# WKSorter
+
+简体中文 · [English](README.en.md)
+
+![Windows x64](https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square)
+[![最新发布版](https://img.shields.io/github/v/release/WuWorks/WKSorter?style=flat-square&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/WuWorks/WKSorter/releases)
+
+![C# / .NET 10](https://img.shields.io/badge/C%23-.NET%2010-512BD4?style=flat-square)
+![WPF + WebView2](https://img.shields.io/badge/WPF%20%2B%20WebView2-0078D4?style=flat-square)
+![CreamyUI](https://img.shields.io/badge/CreamyUI-5B6573?style=flat-square)
+
+WKSorter 是我做的一款 Windows 文件整理工具。下载目录里的文件攒多了，可以用它按类型分到不同的文件夹。手动整理前能先看看结果，常用目录也可以设成自动整理。
+
+## 📂 可以用它做什么
+
+- **整理文件**。先看看文件会分到哪里，再决定是移动还是复制。
+- **自动整理**。可以监控一个目录，给新来的文件归类，也可以设个时间定期整理。
+- **备份资料**。可以随手备份一次，也可以设成定时备份。支持增量备份和恢复。
+
+整理时会把已有的子文件夹原样保留。拿不准怎么处理的文件，会按规则留在原处或等你确认。
+
+## 📥 下载与使用
+
+目前提供 Windows x64 安装包。[下载安装包](https://github.com/WuWorks/WKSorter/releases)
+
+第一次用，可以先挑一个文件不多的目录试试。选好要整理的目录和存放位置，点「预览整理」。看看文件会分到哪里，合适再执行。
+
+装好以后，可以在应用内的「关于」页面检查更新。
+
+## 🐣 我为什么做它
+
+我平时隔一阵子就会整理电脑。有一次打开资源管理器，各种格式的文件都混在一起，得一个个看，再分到对应的文件夹里。整理到一半，我还得停下来想想，接下来该从哪儿继续。
+
+当时我就想，要是有个工具能认出这些文件，帮我把同类的放到一块儿就好了。WKSorter 就是这么来的。
+
+## 🔎 项目现状
+
+现在主要做的是文件整理和备份。毕竟会动到你电脑上的文件，我想先把这几件事做稳。更新得看我手头的时间，有空我就接着改。
+
+😊 谢谢你愿意试试 WKSorter。用起来哪里别扭，或者有什么你希望它能帮上忙的地方，都欢迎告诉我。由于我的精力和时间有限我会努力改善和优化.
+
+## 关于本仓库
+
+这里放的是 WKSorter 的介绍、安装包和版本说明。许可信息可在应用的「关于 → 许可信息」查看。
