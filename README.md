@@ -2,12 +2,12 @@
 
 简体中文 · [English](README.en.md)
 
-![Windows x64](https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square)
-[![最新发布版](https://img.shields.io/github/v/release/WuWorks/WKSorter?style=flat-square&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/WuWorks/WKSorter/releases)
+![Windows x64](assets/readme/windows.svg)
+[![查看最新版本](assets/readme/releases.svg)](https://github.com/WuWorks/WKSorter/releases/latest)
 
-![C# / .NET 10](https://img.shields.io/badge/C%23-.NET%2010-512BD4?style=flat-square)
-![WPF + WebView2](https://img.shields.io/badge/WPF%20%2B%20WebView2-0078D4?style=flat-square)
-![CreamyUI](https://img.shields.io/badge/CreamyUI-5B6573?style=flat-square)
+![C# / .NET 10](assets/readme/dotnet.svg)
+![WPF + WebView2](assets/readme/webview.svg)
+![CreamyUI](assets/readme/creamyui.svg)
 
 WKSorter 是我做的一款 Windows 文件整理工具。下载目录里的文件攒多了，可以用它按类型分到不同的文件夹。手动整理前能先看看结果，常用目录也可以设成自动整理。
 
