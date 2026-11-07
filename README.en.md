@@ -2,12 +2,11 @@
 
 [简体中文](README.md) · English
 
-![Windows x64](assets/readme/windows.svg)
-[![View latest release](assets/readme/releases.svg)](https://github.com/WuWorks/WKSorter/releases/latest)
-
-![C# / .NET 10](assets/readme/dotnet.svg)
-![WPF + WebView2](assets/readme/webview.svg)
-![CreamyUI](assets/readme/creamyui.svg)
+![Windows x64](https://img.shields.io/badge/Windows-x64-0078D4?style=flat)
+[![Latest release](https://img.shields.io/github/v/release/WuWorks/WKSorter?style=flat&label=Release&color=007EC6)](https://github.com/WuWorks/WKSorter/releases/latest)
+![C# / .NET 10](https://img.shields.io/badge/C%23-.NET%2010-512BD4?style=flat)
+![WPF + WebView2](https://img.shields.io/badge/WPF-WebView2-007EC6?style=flat)
+![CreamyUI](https://img.shields.io/badge/CreamyUI-UI%20Kit-52677D?style=flat)
 
 WKSorter is a Windows file organizer I built. When your Downloads folder starts filling up, it can sort files into folders by type. You can preview a sort before running it, or set up automatic sorting for folders you use often.
 
