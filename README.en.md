@@ -41,3 +41,5 @@ Right now, I’m focusing on sorting and backups. Since WKSorter works with your
 ## About this repository
 
 This is where you’ll find information about WKSorter, the installer, and release notes. Starting with v1.0.2, WKSorter is for noncommercial use only. See the [license](LICENSE.txt) for the full terms. Third-party licenses are available under **About → Licenses** in the app.
+
+Curious about some of the C# code behind WKSorter? Start with the [code references](reference/).
