@@ -1,0 +1,21 @@
+WKSorter 非商业使用许可
+版权所有 © 2026 WuWorks
+
+你可以安装和使用 WuWorks 正式发布的 WKSorter，包括随安装包提供的自有组件，仅限非商业用途。个人文件整理、非商业学习和教学属于允许的用途。
+
+商业用途包括用于企业经营、商业机构内部工作、职业活动、有偿服务，或销售软件及其副本。商业使用须事先取得 WuWorks 的书面许可。
+
+经 WuWorks 明确发布的参考代码仅供非商业学习。本许可不授予发布或再分发 WKSorter 或 CreamyUI 源码的权利。其余权利由权利人保留。
+
+本许可仅适用于 WuWorks 自有部分。第三方组件遵循各自的许可及版权声明。
+
+WKSorter Noncommercial Use License
+Copyright © 2026 WuWorks
+
+You may install and use WKSorter as officially distributed by WuWorks, including its bundled proprietary components, for noncommercial purposes only. Personal file organization and noncommercial learning and teaching are permitted.
+
+Commercial use includes business operations, internal work for a commercial organization, professional activities, paid services, and selling the software or copies of it. Commercial use requires prior written permission from WuWorks.
+
+Reference code explicitly published by WuWorks is provided for noncommercial study. This license does not grant the right to publish or redistribute WKSorter or CreamyUI source code. All other rights are reserved.
+
+This license applies only to material owned by WuWorks. Third-party components remain subject to their respective licenses and copyright notices.
