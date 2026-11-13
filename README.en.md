@@ -8,38 +8,47 @@
 ![WPF + WebView2](https://img.shields.io/badge/WPF-WebView2-007EC6?style=flat)
 ![CreamyUI](https://img.shields.io/badge/CreamyUI-UI%20Kit-52677D?style=flat)
 
-WKSorter is a Windows file organizer I built. When your Downloads folder starts filling up, it can sort files into folders by type. You can preview a sort before running it, or set up automatic sorting for folders you use often.
+WKSorter is a Windows utility for rule-based file organization, automated sorting, and file backup and restore.
 
-## 📂 What you can do with it
+## Problems addressed
 
-- **Sort files.** See where your files will go, then choose whether to move or copy them.
-- **Sort automatically.** Watch a folder and sort new files as they arrive, or run a sort on a schedule.
-- **Back up your files.** Run a backup whenever you need one or set up a schedule. Incremental backups and restore are supported.
+- **Time-consuming file sorting**: Organize mixed files by rules to reduce moving and categorizing them one by one.
+- **Recurring folder clutter**: Process incoming files automatically to reduce repeated manual cleanup.
+- **Backups that require manual upkeep**: Schedule recurring backups and support recovery when needed.
 
-Sorting leaves existing subfolders intact. Files that need a closer look stay where they are or wait for your confirmation.
+## Features
 
-## 📥 Download and get started
+| Feature | Description |
+| --- | --- |
+| Manual sorting | Preview classification results and destination paths before moving or copying files. |
+| Automatic sorting | Run sorting tasks using folder monitoring or a schedule. |
+| Backup and restore | Create manual or scheduled backups, with incremental backup and restore. |
 
-The installer is available for Windows x64. [Download the installer](https://github.com/WuWorks/WKSorter/releases)
+By default, automatic sorting processes files directly within the source folder. Existing subfolders and their contents retain their structure.
 
-For your first try, pick a folder with just a few files. Choose the folder you want to sort and where you want the files to go, then click **Preview sorting**. Take a look at where everything will land. If it looks right, go ahead and run the sort.
+## Download and requirements
 
-Once it’s installed, you can check for updates on the **About** page.
+Download the latest Windows x64 installer from [GitHub Releases](https://github.com/WuWorks/WKSorter/releases/latest).
 
-## 🐣 Why I built it
+- **Platform**: Windows x64.
+- **Runtime**: Microsoft Edge WebView2 Runtime. If missing, the installer attempts to install the runtime automatically.
 
-Every so often, I go through the files on my computer. One time, I opened File Explorer and found all kinds of files mixed together. I had to go through them one by one and put them in the right folders. Halfway through, I had to stop and think about where to pick up next.
+Existing users can obtain updates through **About → Check updates**.
 
-I thought it would be nice to have a tool that could recognize the files and put similar ones together for me. That’s how WKSorter started.
+## Quick start
 
-## 🔎 Where the project is now
+1. Select the source and destination folders on the **Organize** page.
+2. Click **Preview sorting** and review the classification results and destination paths.
+3. Confirm the preview and run the sorting task.
 
-Right now, I’m focusing on sorting and backups. Since WKSorter works with your files, I want to get those basics right first. I work on updates when I have time.
+## Feedback
 
-😊 Thanks for giving WKSorter a try. If something feels awkward to use, or there’s something you wish it could help with, I’d like to hear about it. I have limited time and energy to spend on the project, and I’ll do my best to keep improving it.
+Submit issues and suggestions through [GitHub Issues](https://github.com/WuWorks/WKSorter/issues), also accessible through **About → Submit feedback** in the app.
 
-## About this repository
+When reporting an issue, include the app version, Windows version, and steps to reproduce it.
 
-This is where you’ll find information about WKSorter, the installer, and release notes. Starting with v1.0.2, WKSorter is for noncommercial use only. See the [license](LICENSE.txt) for the full terms. Third-party licenses are available under **About → Licenses** in the app.
+## License and references
 
-Curious about some of the C# code behind WKSorter? Start with the [code references](reference/).
+WKSorter is for noncommercial use only. See the [license](LICENSE.txt) for the full terms. Third-party licenses are available under **About → Licenses** in the app.
+
+This repository provides product information, releases, and [code references](reference/). The reference directory presents selected C# implementations; see the license for permitted use.
